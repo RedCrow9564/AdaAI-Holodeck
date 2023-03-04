@@ -1,0 +1,33 @@
+{
+    "frame_width": 720,
+    "frame_height": 576,
+    "fps": 10,
+
+    "Styles": [
+        {
+            "name": "Smiley1",
+            "frames_count": 50,
+            "components_layout": [
+                {
+                    "type": "Text",
+                    "text": "This is a smiley style!",
+                    "position": [180, 40],
+                    "color": [0, 0, 0],
+                    "thickness": 2,
+                    "fontScale": 1
+                },
+
+                {
+                    "type": "Image",
+                    "bounding_box": [300, 290, 50, 50]
+                },
+
+                {
+                    "type": "Image",
+                    "bounding_box": [400, 420, 130, 130]
+                }
+
+            ]
+        }
+    ]
+}

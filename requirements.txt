@@ -1,0 +1,6 @@
+requests
+tqdm
+dotenv
+numpy
+opencv-python
+openai

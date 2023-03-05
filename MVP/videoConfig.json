@@ -26,7 +26,45 @@
                     "type": "Image",
                     "bounding_box": [400, 420, 130, 130]
                 }
+            ]
+        },
 
+        {
+            "name": "Cats_using_DALL_E_2",
+            "frames_count": 50,
+            "components_layout": [
+                {
+                    "type": "Text",
+                    "text": "The true rullers of the internet...",
+                    "position": [180, 40],
+                    "color": [0, 0, 0],
+                    "thickness": 2,
+                    "fontScale": 1
+                },
+
+                {
+                    "type": "Image",
+                    "prompt": "a white siamese cat",
+                    "bounding_box": [300, 290, 50, 50]
+                },
+
+                {
+                    "type": "Image",
+                    "prompt": "a close up, studio photographic portrait of a white siamese cat that looks curious, backlit ears",
+                    "bounding_box": [400, 420, 130, 130]
+                },
+
+                {
+                    "type": "Image",
+                    "prompt": "A Sphinx cat rulling over Egypt",
+                    "bounding_box": [100, 120, 180, 180]
+                },
+
+                {
+                    "type": "Image",
+                    "prompt": "A cat rulling over Japan",
+                    "bounding_box": [100, 320, 180, 180]
+                }
             ]
         }
     ]
